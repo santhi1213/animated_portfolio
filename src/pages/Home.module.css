@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:  white;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    justify-content: space-between;
+}
+.container img{
+    height: 50vh;
+    filter: drop-shadow(1px 1px 20px rgb(252, 252, 116));
+    margin-bottom: -10%;
+    cursor: pointer;
+}
+
+.ArrowBottom{
+    filter: drop-shadow(1px 1px 20px rgb(252, 252, 116));
+    margin-left: 43%;
+    margin-bottom: -25%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.ArrowTop{
+    filter: drop-shadow(1px 1px 20px rgb(252, 252, 116));
+    width: 9%;
+    margin-top: -12%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.ArrowLeft{
+    filter: drop-shadow(1px 1px 20px rgb(252, 252, 116));
+    height: 80px;
+    margin-top: 380%;
+    cursor: pointer;
+}
+
+.ArrowRight{
+    filter: drop-shadow(1px 1px 20px rgb(252, 252, 116));
+    margin-left: 20%;
+    margin-top: 300%;
+    cursor: pointer;   
+}
+
